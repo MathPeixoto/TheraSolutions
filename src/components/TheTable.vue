@@ -21,21 +21,39 @@
             v-model="row.box"
         ></v-checkbox>
       </td>
-      <td id="user-body" :class="index === rowIndex ? 'opacity' : ''">{{ row.user }}</td>
-      <td id="email-body" :class="index === rowIndex ? 'opacity' : ''">{{ row.email }}</td>
-      <td id="date-one-body" :class="index === rowIndex ? 'opacity' : ''">{{ row.date_one }}</td>
-      <td id="date-two-body" :class="index === rowIndex ? 'opacity' : ''">{{ row.date_two }}</td>
-      <td id="rules-body" :class="index === rowIndex ? 'opacity' : ''">{{ row.rules }}</td>
-      <td id="status-body" :class="index === rowIndex ? 'opacity' : ''">{{ row.status }}</td>
+      <td id="user-body" :class="index === rowIndex && !edit ? 'opacity' : ''">
+        <span v-if="!edit">{{ row.user }}</span>
+        <input v-if="edit" v-model="row.user" />
+      </td>
+      <td id="email-body" :class="index === rowIndex && !edit ? 'opacity' : ''">
+        <span>{{ row.email }}</span>
+        <input v-if="edit" v-model="row.email">
+      </td>
+      <td id="date-one-body" :class="index === rowIndex && !edit ? 'opacity' : ''">
+        <span v-if="!edit">{{ row.date_one }}</span>
+        <input v-if="edit" v-model="row.date_one">
+      </td>
+      <td id="date-two-body" :class="index === rowIndex && !edit ? 'opacity' : ''">
+        <span v-if="!edit">{{ row.date_two }}</span>
+        <input v-if="edit" v-model="row.date_two">
+      </td>
+      <td id="rules-body" :class="index === rowIndex && !edit ? 'opacity' : ''">{
+        <span v-if="!edit">{ row.rules }}</span>
+        <input v-if="edit" v-model="row.rules">
+      </td>
+      <td id="status-body" :class="index === rowIndex && !edit ? 'opacity' : ''">
+        <span v-if="!edit">{{ row.status }}</span>
+        <input v-if="edit" v-model="row.status">
+      </td>
       <td id="options" class="d-flex justify-lg-end color-icon">
         <button @click="removeRow(row)">
           <i id="trash" v-show="index === rowIndex" class="material-icons mr-1">delete</i>
         </button>
-        <button @click="editRow(row)">
+        <button @click="editRow">
           <i id="pen" v-show="index === rowIndex" class="material-icons ml-1">create</i>
         </button>
       </td>
-      <td id="actions-body" :class="index === rowIndex ? 'opacity' : ''">
+      <td id="actions-body" :class="index === rowIndex && !edit ? 'opacity' : ''">
         <button @click="showOptions(index)">...</button>
       </td>
     </tr>
@@ -55,7 +73,8 @@ export default {
       rows: [],
       option: false,
       rowIndex: null,
-      flag: false
+      flag: false,
+      edit: false,
     }
   },
   methods: {
@@ -69,9 +88,10 @@ export default {
       });
     },
     showOptions(index) {
-      if (this.flag) {
+      if (this.flag) { //it verifies if the user is clicking in the actions for the first or second time
         this.rowIndex = null
         this.flag = false
+        this.edit = false
       } else {
         this.rowIndex = index
         this.flag = true
@@ -80,8 +100,8 @@ export default {
     removeRow(row) {
       this.rows = this.rows.filter(value => value.id !== row.id)
     },
-    editRow(row) {
-      console.log(row)
+    editRow() {
+      this.edit = !this.edit
     },
   },
   created() {
