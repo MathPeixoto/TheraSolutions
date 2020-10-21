@@ -18,11 +18,11 @@ export default {
 button {
   width: 176px;
   height: 48px;
-  background-color: #D83367;
+  background-color: #d83367;
   border-radius: 4px;
 
   i {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   span {
     color: white;
