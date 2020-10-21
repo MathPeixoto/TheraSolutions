@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheFilterModal.vue Checks if the error message is being shown 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  maxwidth="none"
+  opendelay="0"
+  origin="center center"
+  retainfocus="true"
+  transition="dialog-transition"
+  value="true"
+  width="auto"
+>
+  <div
+    class="modal-position"
+  >
+    <header
+      class="filter-header d-flex justify-space-between align-center"
+    >
+      <div
+        class="d-flex"
+      >
+        <span
+          class="d-block ml-5"
+          id="filter-icon"
+        >
+          <svg
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"
+              fill="#999999"
+            />
+          </svg>
+        </span>
+         
+        <span
+          class="d-block ml-5 filter-font"
+        >
+          FILTROS
+        </span>
+      </div>
+       
+      <button
+        class="mr-6"
+        id="close-button"
+      >
+        <span
+          class="material-icons icon"
+        >
+          
+          close
+        
+        </span>
+      </button>
+    </header>
+     
+    <section
+      class="filter-section container"
+    >
+      <div
+        class="quote"
+      >
+        <p>
+          
+          Utilize os filtros abaixo para refinar os resultados da tabela,
+          clique no botão APLICAR para salvar as alterações.
+        
+        </p>
+         
+        <div
+          id="custom-divider"
+        />
+      </div>
+       
+      <div
+        id="filters"
+      >
+        <base-filter-stub
+          description="TODAS AS DATAS DE INCLUSÃO"
+          firsticon="date_range"
+        />
+         
+        <v-divider-stub />
+         
+        <base-filter-stub
+          description="TODAS AS DATAS DE ALTERAÇÃO"
+          firsticon="date_range"
+        />
+         
+        <v-divider-stub />
+         
+        <base-filter-stub
+          description="ATIVOS E INATIVOS"
+          firsticon="hdr_strong"
+        />
+         
+        <v-divider-stub />
+      </div>
+       
+      <button
+        id="apply"
+      >
+        APLICAR
+      </button>
+    </section>
+  </div>
+</v-dialog-stub>
+`;

@@ -5,10 +5,12 @@
     class="d-flex justify-space-between mt-5 ml-2"
   >
     <div class="d-flex">
-      <span class="material-icons d-block mr-3">
+      <span id="first-icon" class="material-icons d-block mr-3">
         {{ firstIcon }}
       </span>
-      <span class="description d-block">{{ description }}</span>
+      <span id="description" class="description d-block">{{
+        description
+      }}</span>
     </div>
     <div>
       <span class="material-icons d-block">

@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue test if the home is being well displayed 1`] = `
+<div>
+  <nav
+    class="d-flex justify-space-between align-center"
+    id="header"
+  >
+    <div
+      class="v-dialog__container"
+      role="dialog"
+    >
+      <!---->
+    </div>
+     
+    <div
+      class="d-flex align-center"
+    >
+      <img
+        alt="LOGO"
+        class="ml-3"
+        src="../assets/symbol.svg"
+      />
+       
+      <hr
+        aria-orientation="vertical"
+        class="mr-5 ml-1 v-divider v-divider--vertical theme--light"
+        role="separator"
+      />
+       
+      <div
+        class="d-flex mr-3"
+        id="icons"
+      >
+        <div
+          class="icon-size d-flex justify-center align-center"
+          id="security"
+        >
+          <svg
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"
+            />
+          </svg>
+        </div>
+         
+        <div
+          class="icon-size d-flex justify-center align-center"
+          id="person"
+        >
+          <i
+            class="fas fa-user"
+          />
+        </div>
+      </div>
+       
+      <header
+        class="ml-3 v-sheet v-sheet--outlined theme--light v-toolbar v-toolbar--dense"
+        style="height: 36px; width: 298px; background-color: rgb(245, 245, 245); border-color: #f5f5f5;"
+      >
+        <div
+          class="v-toolbar__content"
+          style="height: 36px;"
+        >
+          <div
+            class="v-toolbar__title font"
+          >
+            Pesquisar...
+          </div>
+           
+          <div
+            class="spacer"
+          />
+           
+          <button
+            class="hidden-xs-only v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"
+            type="button"
+          >
+            <span
+              class="v-btn__content"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-magnify theme--light"
+              />
+            </span>
+          </button>
+        </div>
+      </header>
+    </div>
+     
+    <div
+      class="d-flex"
+    >
+      <div
+        class="icon-size d-flex justify-center align-center mr-1"
+        id="tune"
+      >
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"
+          />
+        </svg>
+      </div>
+       
+      <button
+        class="ml-1"
+        id="base-button"
+        type="button"
+      >
+        <span>
+          <i
+            class="mr-1 fas fa-user"
+          />
+           
+          <span
+            class="ml-1 font"
+          >
+            INCLUIR USUÁRIO
+          </span>
+        </span>
+      </button>
+       
+      <hr
+        aria-orientation="vertical"
+        class="mr-5 ml-5 v-divider v-divider--vertical theme--light"
+        role="separator"
+      />
+       
+      <div
+        class="d-flex justify-center align-center"
+        id="last-icons"
+      >
+        <span>
+          <svg
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+        </span>
+         
+        <span>
+          <svg
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"
+            />
+          </svg>
+        </span>
+         
+        <span>
+          <svg
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </nav>
+   
+  <div
+    class="d-flex justify-space-around"
+  >
+    <table
+      id="table"
+    >
+      <thead>
+        <tr>
+          <th
+            id="checkbox-header"
+          />
+           
+          <th
+            id="user-header"
+          >
+            USUÁRIO
+          </th>
+           
+          <th
+            class="d-flex"
+            id="email-header"
+          >
+            EMAIL
+          </th>
+           
+          <th
+            id="date-one-header"
+          >
+            DATA DE INCLUSÃO
+          </th>
+           
+          <th
+            id="date-two-header"
+          >
+            DATA DE ALTERAÇÃO
+          </th>
+           
+          <th
+            id="rules-header"
+          >
+            REGRAS
+          </th>
+           
+          <th
+            class="d-flex"
+            id="status-header"
+          >
+            STATUS
+          </th>
+           
+          <th
+            id="option-header"
+          />
+           
+          <th
+            id="actions-header"
+          >
+            AÇÕES
+          </th>
+        </tr>
+      </thead>
+       
+      <tbody />
+    </table>
+  </div>
+   
+  <div
+    class="d-flex justify-center mt-6"
+  >
+    <button
+      id="first"
+    >
+      Primeiro
+    </button>
+     
+    <button
+      id="prev"
+    >
+      Anterior
+    </button>
+     
+    <button
+      id="page"
+    >
+      1
+    </button>
+     
+    <button
+      disabled="disabled"
+      id="next"
+    >
+      Próximo
+    </button>
+     
+    <button
+      disabled="disabled"
+      id="last"
+    >
+      Último
+    </button>
+  </div>
+   
+  <footer
+    class="d-flex align-center justify-space-between"
+  >
+    <div
+      class="d-flex align-center"
+    >
+      <div
+        class="v-input ml-3 default-size v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+            style="height: auto;"
+          >
+            <div
+              aria-labelledby="input-14"
+              class="v-input--radio-group__input"
+              role="radiogroup"
+            >
+              <div
+                class="v-radio theme--light v-item--active"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-marked theme--light"
+                    style="color: rgb(255, 135, 0); caret-color: #FF8700;"
+                  />
+                  <input
+                    aria-checked="true"
+                    id="input-15"
+                    name="radio-14"
+                    role="radio"
+                    type="radio"
+                    value="selected"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                    style="color: rgb(255, 135, 0); caret-color: #FF8700;"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  for="input-15"
+                  style="left: 0px; position: relative;"
+                >
+                  <span
+                    id="live"
+                  >
+                    NO AR
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-messages theme--light"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="d-flex align-center"
+      >
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"
+            style="fill: #666666;"
+          />
+        </svg>
+         
+        <span
+          class="ml-2 appointment default-size"
+        >
+          ENCONTRO - 10:00
+        </span>
+         
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79 2.73 2.71 7.15 2.71 9.88 0C18.32 15.65 19 14.08 19 12.1h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58 3.51-3.47 9.14-3.47 12.65 0L21 3v7.12zM12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8h1.5z"
+            style="fill: #666666;"
+          />
+        </svg>
+         
+        <span
+          class="ml-2 update"
+        >
+          Última atualização em 10:28
+        </span>
+      </div>
+    </div>
+     
+    <div
+      class="d-flex align-center"
+    >
+      <div
+        class="d-flex align-center"
+      >
+        <span
+          class="date default-size"
+        >
+          Quinta, 
+          <strong>
+            30
+          </strong>
+           de 
+          <strong>
+            Maio
+          </strong>
+           de
+        
+          <strong>
+            2019
+          </strong>
+        </span>
+         
+        <span
+          class="ml-2 mr-2 default-size time"
+        >
+          // 10:30:42
+        </span>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
