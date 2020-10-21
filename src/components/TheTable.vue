@@ -58,8 +58,7 @@
           id="rules-body"
           :class="index === rowIndex && !edit ? 'opacity' : ''"
         >
-          {
-          <span v-if="!edit">{ row.rules }}</span>
+          <span v-if="!edit">{{ row.rules }}</span>
           <input v-if="edit" v-model="row.rules" />
         </td>
         <td
@@ -131,8 +130,8 @@ export default {
       });
     },
     showOptions(index) {
+      //it verifies if the user is clicking in the actions for the first or second time
       if (this.flag) {
-        //it verifies if the user is clicking in the actions for the first or second time
         this.rowIndex = null;
         this.flag = false;
         this.edit = false;
