@@ -146,6 +146,8 @@ export default {
 table {
   border-collapse: collapse;
   width: 96%;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 24px;
 }
 
 thead > tr {

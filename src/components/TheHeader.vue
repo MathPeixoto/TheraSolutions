@@ -85,6 +85,7 @@ export default {
 nav {
   background-color: #F5F5F5;
   height: 96px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 i {
